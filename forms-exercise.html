@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Forms Exercise</title>
+  </head>
+  <body>
+    <h1>Register</h1>
+    <form>
+      <label for="firstName">First Name:</label>
+      <input name="firstName" type="text" placeholder="John" required />
+      <label for="lastName">Last Name:</label>
+      <input name="lastName" type="text" placeholder="Smith" required />
+
+      <div>
+        <label for="male">Male</label>
+        <input name="gender" id="male" type="radio" value="MALE" />
+        <label for="female">Female</label>
+        <input name="gender" id="female" type="radio" value="FEMALE" />
+        <label for="other">Other</label>
+        <input name="gender" id="other" type="radio" value="OTHER" />
+      </div>
+
+      <label for="email">Email:</label> <input type="email" required />
+      <label for="password">Password</label>
+      <input
+        type="password"
+        placeholder="password"
+        pattern=".{5,10}"
+        required
+        title="Password must be 5-10 characters."
+        required
+      />
+      <div>
+        <fieldset>
+          <legend>Birthday</legend>
+          <label for="Month">Month</label>
+          <select name="month" id="month"
+            >Month
+            <option value="january">January</option>
+            <option value="february">February</option>
+            <option value="march">March</option>
+          </select>
+          <label for="Day">Day</label>
+          <select name="day" id="day"
+            >Day
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+          </select>
+          <label for="year">Year</label>
+          <select name="year" id="year"
+            >Year
+            <option value="2000">2000</option>
+            <option value="2001">2001</option>
+            <option value="2002">2002</option>
+          </select>
+        </fieldset>
+      </div>
+      <label for="checkbox" required>I agree to the terms and conditions</label>
+      <input type="checkbox" />
+      <div><button>Submit</button></div>
+    </form>
+  </body>
+</html>
