@@ -1,0 +1,18 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+img {
+  margin: 1.666%;
+  width: 30%;
+  float: left;
+}
+
+h1 {
+  margin-left: 1.666%;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-bottom: 1px solid rgb(218, 218, 218);
+  width: 30%;
+  padding-bottom: 10px;
+}

@@ -1,0 +1,18 @@
+body {
+  background: rgba(255, 0, 0, 0.1);
+  /* background-image: url(https://i.imgur.com/DYm1aqo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; */
+}
+
+h1 {
+  border-color: rgba(95, 0, 204, 0.8);
+  border-width: 2px;
+  border-style: solid;
+  color: #ce1e1e;
+}
+
+li {
+  color: rgb(51, 115, 189);
+  background: rgba(113, 224, 224, 0.2);
+}
